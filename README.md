@@ -59,7 +59,10 @@ print("Saved logs: h1_torque_log.npy, h1_qpos_log.npy, h1_qvel_log.npy")
 python mpx/examples/mjx_h1.py
 ```
 8) Analysis Scripts
+
 This repo also contains scripts for converting .npy → .csv and visualizing the ankle behavior:
+
+(Change the directories to save the logs accordingly) 
 
 ``` Analysis/test_logs.py ``` : Convert raw logs into labeled CSV
 ``` Analysis/test_analysis.py ``` : Generates -
