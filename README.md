@@ -65,6 +65,7 @@ This repo also contains scripts for converting .npy → .csv and visualizing the
 (Change the directories to save the logs accordingly) 
 
 ``` Analysis/test_logs.py ``` : Convert raw logs into labeled CSV
+
 ``` Analysis/test_analysis.py ``` : Generates -
 
 - Ankle angle time series
