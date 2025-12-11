@@ -1,0 +1,47 @@
+ANKLE LOAD ANALYSIS SUMMARY
+============================================================
+
+Load: 40.0 kg
+  Left Ankle Pitch - Peak Torque:  24.87 Nm
+  Right Ankle Pitch - Peak Torque: 59.82 Nm
+  Left Ankle Pitch - RMS Torque:   6.02 Nm
+  Right Ankle Pitch - RMS Torque:  28.35 Nm
+  Left Ankle Roll - Peak Torque:   12.46 Nm
+  Right Ankle Roll - Peak Torque:  25.31 Nm
+  COM Lateral Sway (std):          0.0373 m
+  Height Variation (std):          0.0215 m
+  Base Roll Variation:             0.6202 rad
+
+Load: 50.0 kg
+  Left Ankle Pitch - Peak Torque:  25.03 Nm
+  Right Ankle Pitch - Peak Torque: 59.99 Nm
+  Left Ankle Pitch - RMS Torque:   5.62 Nm
+  Right Ankle Pitch - RMS Torque:  28.49 Nm
+  Left Ankle Roll - Peak Torque:   12.35 Nm
+  Right Ankle Roll - Peak Torque:  26.35 Nm
+  COM Lateral Sway (std):          0.0235 m
+  Height Variation (std):          0.0219 m
+  Base Roll Variation:             0.6024 rad
+
+Load: 60.0 kg
+  Left Ankle Pitch - Peak Torque:  27.51 Nm
+  Right Ankle Pitch - Peak Torque: 60.09 Nm
+  Left Ankle Pitch - RMS Torque:   7.69 Nm
+  Right Ankle Pitch - RMS Torque:  27.37 Nm
+  Left Ankle Roll - Peak Torque:   12.14 Nm
+  Right Ankle Roll - Peak Torque:  23.27 Nm
+  COM Lateral Sway (std):          0.0287 m
+  Height Variation (std):          0.0246 m
+  Base Roll Variation:             2.7373 rad
+
+Load: 70.0 kg
+  Left Ankle Pitch - Peak Torque:  24.44 Nm
+  Right Ankle Pitch - Peak Torque: 60.16 Nm
+  Left Ankle Pitch - RMS Torque:   5.02 Nm
+  Right Ankle Pitch - RMS Torque:  27.82 Nm
+  Left Ankle Roll - Peak Torque:   11.92 Nm
+  Right Ankle Roll - Peak Torque:  27.09 Nm
+  COM Lateral Sway (std):          0.0207 m
+  Height Variation (std):          0.0232 m
+  Base Roll Variation:             0.5980 rad
+

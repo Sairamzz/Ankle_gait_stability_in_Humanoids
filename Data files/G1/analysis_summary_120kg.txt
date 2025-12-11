@@ -1,0 +1,14 @@
+ANKLE LOAD ANALYSIS SUMMARY
+============================================================
+
+Load: 120.0 kg
+  Left Ankle Pitch - Peak Torque:  22.14 Nm
+  Right Ankle Pitch - Peak Torque: 60.49 Nm
+  Left Ankle Pitch - RMS Torque:   5.39 Nm
+  Right Ankle Pitch - RMS Torque:  28.22 Nm
+  Left Ankle Roll - Peak Torque:   12.03 Nm
+  Right Ankle Roll - Peak Torque:  23.60 Nm
+  COM Lateral Sway (std):          0.0133 m
+  Height Variation (std):          0.0224 m
+  Base Roll Variation:             0.0337 rad
+
