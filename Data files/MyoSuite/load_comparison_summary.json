@@ -1,0 +1,38 @@
+{
+  "0kg": {
+    "total_mass_kg": 75.70884879919636,
+    "right_ankle": {
+      "torque_peak_Nm": 14.046394406047296
+    },
+    "left_ankle": {
+      "torque_peak_Nm": 82.793292077798
+    }
+  },
+  "10kg": {
+    "total_mass_kg": 85.70884879919636,
+    "right_ankle": {
+      "torque_peak_Nm": 15.636399512508975
+    },
+    "left_ankle": {
+      "torque_peak_Nm": 91.00116195506382
+    }
+  },
+  "20kg": {
+    "total_mass_kg": 95.70884879919636,
+    "right_ankle": {
+      "torque_peak_Nm": 18.091156093252298
+    },
+    "left_ankle": {
+      "torque_peak_Nm": 98.18780337402866
+    }
+  },
+  "30kg": {
+    "total_mass_kg": 105.70884879919636,
+    "right_ankle": {
+      "torque_peak_Nm": 20.40393200116366
+    },
+    "left_ankle": {
+      "torque_peak_Nm": 103.87607334711878
+    }
+  }
+}
