@@ -1,0 +1,52 @@
+===== Load 0kg =====
+G1 : /home/sairam/Ankle_gait_stability_in_Humanoids/Data files/G1/ankle_data_75.0kg.csv
+Myo: /home/sairam/Ankle_gait_stability_in_Humanoids/Data files/MyoSuite/load_0kg_data.csv
+
+--- Left Ankle Torque Stats ---
+G1 : {'mean': -1.6516439156892073, 'std': 5.86883449562186, 'rms': 6.096814410922664, 'peak': 24.87299893563525}
+Myo: {'mean': 43.811803218094994, 'std': 23.942938494877335, 'rms': 49.927331242422305, 'peak': 110.62847580160587}
+
+--- Right Ankle Torque Stats ---
+G1 : {'mean': 15.890942642530746, 'std': 22.497895009833762, 'rms': 27.54409806005099, 'peak': 59.81876609113824}
+Myo: {'mean': 6.654990130302615, 'std': 4.959945646282228, 'rms': 8.299997255933235, 'peak': 19.12662209119834}
+Saved: left_torque_0kg.png, right_torque_0kg.png
+
+===== Load 10kg =====
+G1 : /home/sairam/Ankle_gait_stability_in_Humanoids/Data files/G1/ankle_data_85.0kg.csv
+Myo: /home/sairam/Ankle_gait_stability_in_Humanoids/Data files/MyoSuite/load_10kg_data.csv
+
+--- Left Ankle Torque Stats ---
+G1 : {'mean': -1.522855517985906, 'std': 5.406252096709328, 'rms': 5.616640513851152, 'peak': 25.028110521212117}
+Myo: {'mean': 47.089974264806166, 'std': 25.412006843819224, 'rms': 53.5092119928001, 'peak': 114.95069138085644}
+
+--- Right Ankle Torque Stats ---
+G1 : {'mean': 17.26068619968671, 'std': 22.659940827458527, 'rms': 28.485157650748167, 'peak': 59.99182608695465}
+Myo: {'mean': 7.7770435668029165, 'std': 6.032072548717084, 'rms': 9.842169774645063, 'peak': 26.354360794411235}
+Saved: left_torque_10kg.png, right_torque_10kg.png
+
+===== Load 20kg =====
+G1 : /home/sairam/Ankle_gait_stability_in_Humanoids/Data files/G1/ankle_data_95.0kg.csv
+Myo: /home/sairam/Ankle_gait_stability_in_Humanoids/Data files/MyoSuite/load_20kg_data.csv
+
+--- Left Ankle Torque Stats ---
+G1 : {'mean': -2.025012642223811, 'std': 7.418456609956762, 'rms': 7.689874815299495, 'peak': 27.514490774815364}
+Myo: {'mean': 51.481065835424026, 'std': 27.53837621676638, 'rms': 58.383750343802234, 'peak': 118.27413627674846}
+
+--- Right Ankle Torque Stats ---
+G1 : {'mean': 14.010019160077194, 'std': 23.51254005641251, 'rms': 27.37005986055078, 'peak': 60.09086266193251}
+Myo: {'mean': 8.279217880283316, 'std': 7.224629631086454, 'rms': 10.98820831689932, 'peak': 30.621957572516017}
+Saved: left_torque_20kg.png, right_torque_20kg.png
+
+===== Load 30kg =====
+G1 : /home/sairam/Ankle_gait_stability_in_Humanoids/Data files/G1/ankle_data_105.0kg.csv
+Myo: /home/sairam/Ankle_gait_stability_in_Humanoids/Data files/MyoSuite/load_30kg_data.csv
+
+--- Left Ankle Torque Stats ---
+G1 : {'mean': -0.9254674263554336, 'std': 4.907868437697181, 'rms': 4.994363078410411, 'peak': 24.43817303312507}
+Myo: {'mean': 54.237343417418344, 'std': 29.361030872340056, 'rms': 61.674626507709625, 'peak': 120.94776945692806}
+
+--- Right Ankle Torque Stats ---
+G1 : {'mean': 16.984036013087206, 'std': 22.248313129707537, 'rms': 27.99008603794136, 'peak': 60.15859367755078}
+Myo: {'mean': 8.50923275609744, 'std': 8.331992316330137, 'rms': 11.90920392204391, 'peak': 34.19224761973301}
+Saved: left_torque_30kg.png, right_torque_30kg.png
+
