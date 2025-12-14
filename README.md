@@ -39,3 +39,9 @@ Includes all generated figures used in the analysis, such as torque time-series,
 Analysis/
 
 Python scripts for data preprocessing, filtering, statistical analysis, and figure generation.
+
+## References:
+
+<img width="1392" height="374" alt="image" src="https://github.com/user-attachments/assets/d8db8eaf-c627-4fe2-ac84-b861a8f59201" />
+
+
