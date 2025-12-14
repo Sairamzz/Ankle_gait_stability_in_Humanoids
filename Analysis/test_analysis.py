@@ -14,17 +14,12 @@ print("Loaded torque:", df_torque.shape)
 print("Loaded qpos:", df_qpos.shape)
 print("Loaded qvel:", df_qvel.shape)
 
-# Extract ankle-related signals
-
 ankle = pd.DataFrame({
     "t": df_qpos["time_step"],
-    # angles
     "L_angle": df_qpos["left_ankle"],
     "R_angle": df_qpos["right_ankle"],
-    # velocities
     "L_vel": df_qvel["left_ankle_vel"],
     "R_vel": df_qvel["right_ankle_vel"],
-    # torques
     "L_tau": df_torque["left_ankle"],
     "R_tau": df_torque["right_ankle"]
 })
@@ -33,7 +28,7 @@ print("\nAnkle data shape:", ankle.shape)
 print(ankle.head())
 
 # Compute stance vs swing
-### Stance = velocity approximately 0
+
 STANCE_VEL_THRESHOLD = 0.02
 
 ankle["L_stance"] = ankle["L_vel"].abs() < STANCE_VEL_THRESHOLD
@@ -47,13 +42,11 @@ print(" Left stance %:", L_stance_ratio * 100)
 print(" Right stance %:", R_stance_ratio * 100)
 
 # Compute ankle stiffness
-### stiffness = torque / angle
 
 ankle["L_stiffness"] = ankle["L_tau"] / (ankle["L_angle"] + 1e-6)
 ankle["R_stiffness"] = ankle["R_tau"] / (ankle["R_angle"] + 1e-6)
 
 # Detect instability spikes
-### Torque spikes = sudden instability events
 
 L_spike_threshold = ankle["L_tau"].std() * 3
 R_spike_threshold = ankle["R_tau"].std() * 3
@@ -65,10 +58,6 @@ print("\nInstability spike counts:")
 print(" Left ankle spikes:", ankle["L_spike"].sum())
 print(" Right ankle spikes:", ankle["R_spike"].sum())
 
-# Stability index:
-### Variance of ankle velocity during stance
-### Lower variance = more stable
-
 L_stability_index = ankle[ankle["L_stance"]]["L_vel"].var()
 R_stability_index = ankle[ankle["R_stance"]]["R_vel"].var()
 
@@ -76,7 +65,6 @@ print("\nStability Index:")
 print(" Left ankle:", L_stability_index)
 print(" Right ankle:", R_stability_index)
 
-# Plot joint angle trajectories
 
 plt.figure(figsize=(10,4))
 plt.plot(ankle["t"], ankle["L_angle"], label="Left Ankle")
@@ -117,8 +105,6 @@ plt.legend()
 plt.tight_layout()
 plt.savefig("/home/sairam/NU/Assistive/Results/plots/ankle_phase_portrait_2.png")
 plt.show()
-
-# Save processed ankle dataset
 
 ankle.to_csv("/home/sairam/NU/Assistive/Results/csv_files/h1_ankle_processed_2.csv", index=False)
 print("\nSaved processed ankle data → h1_ankle_processed.csv")

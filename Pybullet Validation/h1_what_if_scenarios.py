@@ -498,7 +498,7 @@ class WhatIfScenariosWithTorques:
         
         plt.tight_layout()
         plt.savefig(save_path, dpi=150, bbox_inches='tight')
-        print(f"\n✅ Saved what-if comparison to {save_path}")
+        print(f"\nSaved what-if comparison to {save_path}")
         plt.show()
 
 # Usage
@@ -521,4 +521,4 @@ if __name__ == "__main__":
     # Compare results
     scenarios.compare_scenarios_with_torques('whatif_with_torques_analysis.png')
     
-    print("\n✅ What-if analysis with torques complete!")
+    print("\nWhat-if analysis with torques complete!")

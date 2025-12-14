@@ -64,7 +64,7 @@ class H1TorqueVideoGenerator:
         self.dt = 0.02
         self.time = np.arange(self.n_samples) * self.dt
         
-        print(f"📊 Data loaded: {self.n_samples} samples ({self.n_samples * self.dt:.2f} s)")
+        print(f"Data loaded: {self.n_samples} samples ({self.n_samples * self.dt:.2f} s)")
     
     def capture_robot_view(self, frame_idx):
         """Capture robot from PyBullet camera"""
@@ -270,7 +270,7 @@ class H1TorqueVideoGenerator:
             if idx % 5 == 0:
                 print(f"  Progress: {idx+1}/{self.n_samples} ({100*(idx+1)/self.n_samples:.1f}%)", end='\r')
         
-        print(f"\n✅ Generated {self.n_samples} frames in {self.frame_dir}/")
+        print(f"\n Generated {self.n_samples} frames in {self.frame_dir}/")
     
     def disconnect(self):
         p.disconnect()
@@ -311,6 +311,6 @@ if __name__ == "__main__":
         print("  ffmpeg -framerate 10 -i h1_torque_frames/frame_%04d.png -c:v libx264 -pix_fmt yuv420p h1_with_torques_veryslow.mp4")
         
     except Exception as e:
-        print(f"\n❌ Error: {e}")
+        print(f"\n Error: {e}")
         import traceback
         traceback.print_exc()

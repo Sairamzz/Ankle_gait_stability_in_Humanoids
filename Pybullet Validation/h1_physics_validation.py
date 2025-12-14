@@ -368,7 +368,7 @@ class PhysicsValidatorWithTorques:
                     f'{util:.1f}%', va='center', fontsize=9)
         
         plt.savefig(save_path, dpi=150, bbox_inches='tight')
-        print(f"\n✅ Saved physics validation to {save_path}")
+        print(f"\n Saved physics validation to {save_path}")
         plt.show()
     
     def generate_validation_report(self):
@@ -456,4 +456,4 @@ if __name__ == "__main__":
     # Create visualizations
     validator.visualize_validation_with_torques('physics_validation_with_torques.png')
     
-    print("\n✅ Validation complete!")
+    print("\n Validation complete!")

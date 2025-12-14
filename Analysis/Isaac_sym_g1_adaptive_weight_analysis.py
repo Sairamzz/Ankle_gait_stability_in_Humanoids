@@ -378,7 +378,6 @@ if __name__ == "__main__":
         data_dict[load] = df
         print()
     
-    # Generate analysis plots
     print("Generating analysis plots...")
     analyze_and_plot(data_dict, save_dir)
     
