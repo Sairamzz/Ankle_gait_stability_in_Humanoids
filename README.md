@@ -42,9 +42,12 @@ Python scripts for data preprocessing, filtering, statistical analysis, and figu
 
 ## References:
 
-https://github.com/iit-DLSLab/mpx 
+https://github.com/iit-DLSLab/mpx
+
 https://github.com/unitreerobotics/unitree_rl_gym 
+
 https://github.com/MyoHub/myosuite 
+
 https://github.com/leggedrobotics/legged_gym 
 
 
