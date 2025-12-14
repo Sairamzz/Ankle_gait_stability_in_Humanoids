@@ -9,16 +9,33 @@ This project investigates ankle load dynamics and gait stability in humanoid rob
 ## Simulation Videos
 
 ### H1 – No Load (MPC vs RL)
+
+Demonstrates differences between model-based and learning-based control on the H1 humanoid under nominal conditions.
+
+https://github.com/user-attachments/assets/c0851d9a-0409-4242-a661-a436f2c9d8ae
+
 ### G1 vs H1 – 70 kg Load (RL)
+
+Side-by-side comparison highlighting the effect of ankle morphology (single-axis vs biaxial) on balance and stability under extreme loading.
+
+https://github.com/user-attachments/assets/1f489f69-b0c0-464e-9ecb-21c0b1437f23
+
 ### G1 – RL with Increasing Load (30 kg vs 70 kg)
+
+Shows how a pre-trained RL policy adapts to increasing payloads, including visible changes in ankle torque and center-of-mass sway.
+
+https://github.com/user-attachments/assets/e79ec366-e4f8-49c8-81f4-c647df13931e
 
 ## Repository Structure
 
 Data files/
+
 Contains all logged CSV files for ankle torques, joint states, and CoM data across platforms (H1, G1, and MyoSuite) and load conditions.
 
-~Plots/~
+Plots/
+
 Includes all generated figures used in the analysis, such as torque time-series, peak torque vs load plots, scaling trends, and CoM trajectories.
 
 Analysis/
+
 Python scripts for data preprocessing, filtering, statistical analysis, and figure generation.
